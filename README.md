@@ -14,3 +14,8 @@ footer
 CSS como un modelo de cajas: 
 
 Enfócate en las propiedades de width, height, margin, padding, border y box-sizing
+
+ul
+    li
+    li
+ul
