@@ -1,3 +1,24 @@
+body {
+    background-color: #fffbf7;
+    font-size: 16px; /*1rem =10 px*/    /*Pasas a poder usar REMS*/
+    font-family:;
+    margin: 1rem;
+}
+
+*, *:before, *:after {           /*Conservas el ancho de caja y puedes utilizar el de abajo*/
+    box-sizing: inherit;
+  }
+  
+  /* *{
+    box-sizing: border-box;    
+    margin: 0;
+    padding: 0;
+} */
+
+  
+
+
+
 h1 {
     color:aqua;
     text-align: center;
@@ -15,6 +36,6 @@ button {
     background-color: #025157;
 }
 
-body {
-    background-color: #fffbf7;
+li { 
+    display: inline;
 }
