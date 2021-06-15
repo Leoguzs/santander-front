@@ -1,2 +1,2 @@
 # santander-front
-Aqui se irpa guardando mi proyecto de Desarrollo Web de Santander
+Aqui se irá guardando mi proyecto de Desarrollo Web de Santander
