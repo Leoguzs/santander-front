@@ -2,6 +2,7 @@ body {
     background-color: #fffbf7;
     font-size: 16px; /*1rem =10 px*/    /*Pasas a poder usar REMS*/
     font-family:;
+    
     margin: 1rem;
 }
 
@@ -15,9 +16,18 @@ body {
     padding: 0;
 } */
 
-  
 
 
+a {
+    text-decoration: none;
+    color: #025157;
+    font-weight: bolder;
+    
+}
+
+nav :hover{
+color: chocolate;
+}
 
 h1 {
     color:aqua;
@@ -39,3 +49,4 @@ button {
 li { 
     display: inline;
 }
+

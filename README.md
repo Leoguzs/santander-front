@@ -4,12 +4,12 @@ En lo que tengo que poner más atención será en los formularios, labels, input
 
 Etiquetas:
 - header
-nav
-main
-section
-article
-aside
-footer
+- nav
+- main
+- section
+- article
+- aside
+- footer
 
 CSS como un modelo de cajas: 
 
