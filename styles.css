@@ -15,38 +15,40 @@ body {
 
 
 .header {
-    margin: 40px 20px;
-    display: inline-block;
-    font-size: 0;
+    margin: 40px 20px 20px;
+    font-size: 0;       /*el font size le da tamaño a los espacios entre la letra y no queremos que eso pase*/
+  
 }
 
-.header > * {
-    display: inline-block;
-    font-size: 16px;
+.header > * {          /*Lo estoy aplicando tambipen a los hijos*/
+    display: inline-block;  /*para que alinee todos los elementos en una sola línea*/
+    font-size: 16px;          /*su tamaño de fuente a cada elemento hijo*/
     vertical-align: middle;
     height: 100%;
-    line-height: 45px;
+    line-height: 4.5px;    
 
 
 }
 
 .logo {
         width: 15%; 
+        
 }
 
-.logo > img{
-    height: 100%;
-}
+.logo > img {
+        height: 100%;
+    }
+
 .navbar {
     width: 70%;
-    text-align: center;
+    text-align: left;
     color: #025157;
     font-weight: 500;
   }
   
   .actions {
     width: 15%;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
   }
@@ -78,9 +80,15 @@ p {
 button {
     color: #fff;
     background-color: #025157;
+    padding:  ;
+    border-radius: ;
 }
 
 li { 
     display: inline;
 }
 
+.fk-list {
+    display: list-item;
+    list-style-position: inside;
+}
