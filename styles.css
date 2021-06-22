@@ -13,6 +13,13 @@ body {
     padding: 0;
 }  */
 
+.fixed_header {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+}
 
 .header {
     margin: 40px 20px 20px;     /*para que se distancie del cuerpo*/
@@ -86,8 +93,7 @@ a {
 
 
 h1 {
-    color:aqua;
-    text-align: center;
+    color:rgb(10, 17, 17);
 }
 h2 {
     color: #46484c;
@@ -101,6 +107,36 @@ p {
 
 li { 
     display: inline;
+
 }
+
+.contenedor {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px auto;
+    gap: 5rem;
+}
+.contenedor_imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: auto;
+}
+
+
+
+.titulo_articulo > h1, p{
+    color: #025157;
+}
+
+.antes_de_formulario {
+    color: #343434;
+}
+.trial_boton {
+    background-color: #025157 ;
+}
+
 
 
