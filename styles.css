@@ -1,3 +1,5 @@
+
+}
 body {
     background-color: #fffbf7;
     /* font-size: 16px; 1rem =10 px    Pasas a poder usar REMS */
@@ -19,6 +21,7 @@ body {
     top: 0;
     right: 0;
     left: 0;
+    height: 8rem;
 }
 
 .header {
@@ -138,5 +141,136 @@ li {
     background-color: #025157 ;
 }
 
+.contenedor_verde {
+    max-width: 100%;
+    background-color: #a1d683;
+    height: 55rem;
+    display: flex;
+}
+
+.parrafos{
+     display: flex;
+     flex-direction: column;
+     width: 50%;   
+     align-items: left; 
+     margin-top: 11rem;
+     font-size: 18px;
+     padding-left: 6rem;
+     margin-right: 4rem;
+     margin-left: 11rem;
+    
+     
+}
+
+.parrafos > h1{
+    font-size: 51px;
+    color: #025157;
+    margin-bottom: .3rem;
+    font-weight: bolder;
+
+}
+.parrafos>p{
+    color: #343434;
+    font-weight: 350px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.boton_verde {
+    background-color: #025157;
+    max-width: 18%;
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+   
 
 
+.contenedor_tarjeta{
+    background-color: white;
+    text-align: center;
+    max-width: 18%;
+    border-radius: 8px;
+    margin-top: 6rem;
+    height: 80%;
+    vertical-align: middle;
+    position: static;
+    
+    
+}
+
+
+
+.foto_chico {
+    border-radius: 6px;
+    position:static;
+    max-height: 300px;
+    width: 340px;
+    min-width: auto;
+}
+ .everly {
+    max-width: 100px;
+    min-height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #f9da73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13.7rem;
+    margin-top: -4rem;
+    position: relative;
+ }
+ .letra_everly {
+     margin-top: -18px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #025157 ;
+    text-align: left;
+ }
+
+ .alinea_texto {
+     padding: 25px;
+     font-size: 25px;
+     text-align: left;
+ }
+
+ .icono_carro {
+    width: 25px;
+    height: 25px;
+ }
+
+ .texto_aladodelcarro {
+color: #8b8b8bcc;
+margin-left: 1rem;
+ }
+
+ .carrito_texto {
+     margin-top: -1.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+   max-width: 100%;
+   margin-bottom: 2rem;
+
+    
+    
+}
+
+.case_study_boton {
+background-color: #025157;
+padding: 12px 20px;
+max-width: 100%;
+border-radius: 5px;
+} 
+
+.letras_de_boton {
+    color: rgb(223, 223, 223);
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
