@@ -264,6 +264,7 @@ margin-left: 1rem;
 background-color: #025157;
 padding: 12px 20px;
 max-width: 100%;
+min-width: auto;
 border-radius: 5px;
 } 
 
@@ -277,14 +278,25 @@ border-radius: 5px;
 
 
 .features {
-    
     display: grid;
-    grid-template: repeat(2, 330px) / repeat(2, 1fr);
+   /* grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: repeat (2, 330px);*/
+    background-color: #025157;
+    padding: 5% 10%;
+    grid-template: repeat(2, 300px) /  repeat(2, 800px);
+    
   }
 
-.feature-art {
-    background-color: blanchedalmond;
-    margin: 10px;
-    width: 40%;
-    height: 40px;
+.features .feature-art {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    
+    
 }
