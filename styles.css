@@ -1,4 +1,8 @@
 
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
 }
 body {
     background-color: #fffbf7;
@@ -117,7 +121,7 @@ li {
     display: flex;
     width: 70%;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     margin: 100px auto;
     gap: 5rem;
 }
@@ -221,6 +225,8 @@ li {
     margin-left: 13.7rem;
     margin-top: -4rem;
     position: relative;
+    
+
  }
  .letra_everly {
      margin-top: -18px;
@@ -247,7 +253,7 @@ margin-left: 1rem;
  }
 
  .carrito_texto {
-     margin-top: -1.8rem;
+     margin-top: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -284,7 +290,7 @@ border-radius: 5px;
     background-color: #025157;
     padding: 5% 10%;
     grid-template: repeat(2, 300px) /  repeat(2, 800px);
-    
+    overflow: hidden;
   }
 
 .features .feature-art {
@@ -296,7 +302,195 @@ border-radius: 5px;
     border-radius: 5px;
     display: flex;
     align-items: center;
+    
+}
+
+.features .feature-art .feature-content {
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.features .feature-art .feature-content img {
+    width: 50px;
+}
+.features .feature-card .feature-content h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+}
+
+.features .feature-art .feature-content > * {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.features .feature-art .feature-content p {
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+}
+
+
+.features .feature-art .feature-content a {
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.features .feature-art .feature_image  {
+
+    display: flex;
+   
+
+    overflow:hidden; 
+    
+
+    
+    position:static;
+    
+        flex: 1;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0;
+    min-width: 40%;
+        right: -40px;
+        height: 100%;
+    }
+    
+    
+
+.features .feature-card .feature-image figure, .features .feature-card .feature-image img {
+    margin-top: 0;
+    height: 100%;
+}
+
+
+    /*display: flex;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    width: %;
+    /*position:initial;*/
+   
+   /* overflow: hidden;
+    /*height: 80%;*/
+   /* align-items: center;
+    justify-content: center;*/
+
+
+ 
+
+/*.features .feature-art .feature-image img {
+    margin-top: 0;
+    height: 100%;
+} */
+    
+.contenedor_informacion    {
+     background-color: #fffbf7;
+padding: 5% 10%;
+padding-top: 5%;
+padding-right: 10%;
+padding-bottom: 5%;
+padding-left: 10%;
+text-align: center;
+
+}
+ .contenedor_informacion .title {
+    color: #025157;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bolder;
+    font-family: "Alegreya", serif;
+    margin-bottom: 8px;
+} 
+.contenedor_informacion .description {
+    
+        max-width: 60%;
+        color: #46484c;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        margin: 0 auto;
+        margin-bottom: 16px;
+}
+.contenedor_informacion .description a {
+        color: #67b54b;
+        text-decoration: none;
+        text-decoration-line: none;
+        text-decoration-style: initial;
+        text-decoration-color: initial;
+        font-weight: lighter;
+}
+
+.button {
+    background-color: #025157;
+}
+.contenedor_informacion .steps {
+    margin-top: 70px;
+    display: grid;
+    gap: 2.5em;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat (1, );
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    
+}
+
+.card-step {
+    border: .5px solid rgb(180, 173, 173);
+    border-radius: 5px;
+}
+.how-does-it-work .steps .card-step .card-step-image .card-step-bg {
+    width: 100%;
+    height: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+
+
+.contenedor_informacion .steps .card-step .card-step-image .card-step-icon {
+    margin-top: 10px;
+    position: relative;
     overflow: hidden;
-    
-    
+    bottom: 160px;
+    right: 300px;
+    width: 21px;
+
+}
+.card-step-bg {
+    width: 300px;
+}
+.contenedor_informacion .steps .card-step .card-step-body h3 {
+    font-size: 30px;
+    line-height: 36px;
+    font-family: "Alegreya", serif;
+    color: #025157;
+    font-weight: bolder;
+    text-align: center;
+}
+.contenedor_informacion .steps .card-step .card-step-body p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #46484c;
+    font-weight: 400;
+    height: 85px;
+    margin-bottom: 1rem;
+}
+.contenedor_informacion .steps .card-step .card-step-body a {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 3rem;
 }
