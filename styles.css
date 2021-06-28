@@ -87,8 +87,20 @@ li {
     border: none;
     cursor: pointer;
 }
-
-
+/*media queries*/
+@media (max-width: 575px) {
+    .navbar,
+    .actions {
+      display: none;
+    }
+    h1 {
+        font-size: 30px;
+      }
+      main {
+          margin-top: 130px;
+      }
+    }
+  
 
 a {
     text-decoration: none;
@@ -494,3 +506,9 @@ img {
     text-decoration: none;
     margin-top: 3rem;
 }
+
+@media (max-width: 575px) {
+    body {
+      background-color: yellow;
+    }
+  }
