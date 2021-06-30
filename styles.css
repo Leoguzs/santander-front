@@ -490,11 +490,7 @@ img {
           display: flex;
           flex-direction: column;
           align-items: center;   
-      }  .publish > form > button{
-          margin-right: 2rem;
-
-      }
-      .contenedor {
+      } .contenedor {
           flex-direction: column;
           max-width: 90%;
           align-items: center;
