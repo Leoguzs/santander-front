@@ -59,14 +59,14 @@ li {
 
 
     
-.navbar {
+/* .navbar {
     width: 70%;
     text-align: center;
     font-weight: 500;
     color: #025157;
     font-family: sans-serif; 
     word-spacing: 25px;
-  }
+  } */
   
   .actions {
     width: 15%;
@@ -531,4 +531,21 @@ img {
 /** dispositivos extra grandes (monitores grandes, tvs) */
 @media (min-width: 1200px) {
   
+}
+
+
+
+
+
+.carrousel_container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 10px 73px; 
+}
+.spinner-border {
+    margin: 10px 73px; 
+    padding-bottom: 10px;
 }
