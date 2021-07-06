@@ -25,4 +25,7 @@ Los comandos git fetch y git merge son los comandos que usamos para obtener camb
 
 - git merge por otro lado nos permite mezclar cambios de otras ramas hacia nuestra rama actual de trabajo.
 
-
+//crear proyecto de node
+npm init -> agregar a la configuración
+nombre 
+crear .gitignore y agrear texto de la página llamada Gitignore

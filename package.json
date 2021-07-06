@@ -1,0 +1,22 @@
+{
+  "name": "santanderfront",
+  "version": "1.0.0",
+  "description": "Aqui se irá guardando mi proyecto de Desarrollo Web de Santander\r En lo que tengo que poner más atención será en los formularios, labels, inputs y",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leoguzs/santander-front.git"
+  },
+  "author": "Leonardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leoguzs/santander-front/issues"
+  },
+  "homepage": "https://github.com/Leoguzs/santander-front#readme",
+  "dependencies": {
+    "sass": "^1.35.1"
+  }
+}
