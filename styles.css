@@ -1,5 +1,5 @@
 body {
-    background-color: #61eee2;
+    background-color: #ee61bf;
     /* font-size: 16px; 1rem =10 px    Pasas a poder usar REMS */
     
 
@@ -105,6 +105,41 @@ li {
 
 .fk-list {
     display: list-item;
-    list-style-position: inside;
+    list-style-position:initial;
 }
 
+/*Cards con grid*/
+.grid-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template: repeat(2, 20rem) / repeat(2, 1fr); /*Así queda bien pero necesitaremos muchos media queries para hacerlo responsive*/
+    /* grid-auto-rows: 20rem; */   /*el grid-auto-rows, grid-template-columns: y el grid-column: span 2; nos ayudan a que quede responsive sin media queries*/
+    /* grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); */
+    gap: 2rem;
+    padding: 5% 10%;
+}
+.grid-container .grid-child {
+    /* grid-column: span 2; */
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    padding-left: 2rem;
+    align-items: center;  
+}
+.grid-container .grid-child h3{
+    color: rgb(224, 47, 180);
+    font-style:italic;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.grid-container .grid-child img {
+    width: 200px;
+    height: 150px;
+
+}
+@media (max-width:768px) {
+   .grid-container{
+        display: grid;
+        grid-template: repeat(4, 20rem) / repeat(1, 1fr);
+   }
+}
