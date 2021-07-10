@@ -108,6 +108,20 @@ li {
     list-style-position:initial;
 }
 
+/* Nav de experimento con flex */
+.nav-container {
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end ;
+    
+}
+.nav-container > a{
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
 /*Cards con grid*/
 .grid-container {
     margin-top: 50px;
@@ -137,6 +151,10 @@ li {
     height: 150px;
 
 }
+
+
+
+
 @media (max-width:768px) {
    .grid-container{
         display: grid;
